@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ForestBuzz</title>
+    <link rel="stylesheet" href="./Content/game.css">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+
+    <script src="./node_modules/easeljs/lib/easeljs.min.js"></script>
+    <script src="./node_modules/preloadjs/lib/preloadjs.min.js"></script>
+    <script src="./node_modules/soundjs/lib/soundjs.min.js"></script>
+    <script src="./node_modules/tweenjs/lib/tweenjs.min.js"></script>
+
+    <!--Game Scripts -->
+    <script src="./Scripts/math/vec2/vec2.js"></script>
+    <script src="./Scripts/config/scene/scene.js"></script>
+    <script src="./Scripts/config/pivot/pivot.js"></script>
+    <script src="./Scripts/config/keys/keys.js"></script>
+    <script src="./Scripts/config/screen/screen.js"></script>
+    <script src="./Scripts/utility/utility.js"></script>
+    <script src="./Scripts/utility/color/color.js"></script>    
+    <script src="./Scripts/config/tags/tags.js"></script>
+
+    <!-- Managers -->
+    <script src="./Scripts/managers/enemy-manager/enemy-manager.js"></script>
+    <script src="./Scripts/resources/data-template/data-template.js"></script>
+    <script src="./Scripts/resources/resources.js"></script>
+    <script src="./Scripts/managers/resource-manager/resource-manager.js"></script>
+    <script src="./Scripts/managers/scoreboard/scoreboard.js"></script>
+    <script src="./Scripts/managers/collision-manager/collision-manager.js"></script>
+    <script src="./Scripts/managers/input-manager/input-manager.js"></script>
+    <script src="./Scripts/managers/game-manager/game-manager.js"></script>
+
+    <!--interfaces-->
+    <script src="./Scripts/interfaces/startable/startable.js"></script>
+    <script src="./Scripts/interfaces/updatable/updatable.js"></script>
+    <script src="./Scripts/interfaces/resettable/resettable.js"></script>
+    <script src="./Scripts/interfaces/destructable/destructable.js"></script>
+    <script src="./Scripts/interfaces/state-changable/state-changable.js"></script>
+
+    <!-- GameObjects -->
+    <script src="./Scripts/objects/bitmap-game-object/bitmap-game-object.js"></script>
+    <script src="./Scripts/objects/sprite-game-object/sprite-game-object.js"></script>
+    <script src="./Scripts/objects/container-bitmap-object/container-bitmap-object.js"></script>
+    
+    <script src="./Scripts/objects/animated-bitmap-object/state-transition-animation/state-transition-animation.js"></script>
+    <script src="./Scripts/objects/animated-bitmap-object/state-animation/state-animation.js"></script>
+    <script src="./Scripts/objects/animated-bitmap-object/animated-bitmap-object.js"></script>    
+    <script src="./Scripts/objects/animated-container-object/animated-container-object.js"></script>
+
+    <script src="./Scripts/objects/background/background.js"></script>
+
+    <script src="./Scripts/objects/text-label/label.js"></script>
+    <script src="./Scripts/objects/image-button/button.js"></script>
+    <script src="./Scripts/objects/health-ui/health-ui.js"></script>
+    <script src="./Scripts/objects/arrow/arrow.js"></script>
+
+    <script src="./Scripts/objects/enemies/enemy/enemy.js"></script>    
+
+    <script src="./Scripts/objects/bee/bee.js"></script>   
+    <script src="./Scripts/objects/archer/archer.js"></script>   
+    <script src="./Scripts/objects/bee/bee-sting/bee-sting.js"></script>  
+    <script src="./Scripts/scenes/scene/scene.js"></script>
+
+    <!-- Scences -->
+    <script src="./Scripts/scenes/start-scene/start-scene.js"></script>
+    <script src="./Scripts/scenes/over-scene/over-scene.js"></script>
+    <script src="./Scripts/scenes/gameplay-scene/gameplay-scene.js"></script>    
+    <script src="./Scripts/scenes/instruction-scene/instruction-scene.js"></script>
+
+    <script src="./Scripts/core/game.js"></script>
+</body>
+
+</html>
