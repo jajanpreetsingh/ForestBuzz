@@ -1,9 +1,9 @@
 {
-  "name": "wgp-assign2-sidescroller",
+  "name": "forestbuzz",
   "version": "1.0.0",
   "description": "wgp-assign2 by triniti games",
   "main": "index.js",
-  "repository": "https://github.com/jajanpreetsingh/COMP-397-F2018-Lesson-1.git",
+  "repository": "https://github.com/jajanpreetsingh/ForestBuzz.git",
   "author": "jajanpreetsingh",
   "license": "cencol",
   "private": true,
